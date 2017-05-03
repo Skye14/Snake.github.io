@@ -1,0 +1,52 @@
+.block-field {
+    position: relative;
+    margin: 0 auto;
+    width: 714px;
+    height: 514px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 3px;
+    box-shadow: 0 0 2px #000;
+}
+
+.field {
+    margin: 0 auto;
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.piece {
+    position: absolute;
+    outline: 1px solid rgb(30, 30, 30);
+    border-radius: 15%;
+}
+
+.apple {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.block-state-game {
+    width: 150px;
+    height: 70px;
+    position: relative;
+    margin: 0 auto;
+    top: 230px;
+    background-color: rgb(32, 32, 32);
+    box-shadow: 0 0 2px #000;
+    text-align: center;
+    text-shadow: 2px 2px 0 #000;
+    border-radius: 3px;
+    color: rgb(145, 145, 145);
+}
+
+.state-game-value {
+    font: normal 24px/40px "segoe print", sans-serif;
+    padding-top: 13px;
+}
+
+.state-game-title {
+    font: normal 9px/13px "segoe print", sans-serif;
+}
